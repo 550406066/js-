@@ -1,0 +1,56 @@
+.main select {
+    width: 11%;
+    height: 106px;
+    margin: 0px;
+    outline: none;
+    border: 1px solid #999;
+    margin-top: 31px;
+}
+.main{
+    position: relative;
+}
+.makeEnter {
+    width: 180px;
+    outline: none;
+    border: 0pt;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #999;
+
+}
+
+.optionList{
+    position: absolute;
+    top: 20px;
+    border: 1px solid #999;
+    line-height: 16px;
+    width: 140px;
+    height: 300px;
+    overflow-y:scroll ;
+    display: none
+}
+
+.optionList li {
+    list-style: none;
+    /* left: 15px; */
+    margin-left: -40px;
+    font-family: 微软雅黑;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.optionList li:hover{
+    opacity: 0.8;
+}
+.pull-down-icon{
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.selectVal {
+    color: red
+}
